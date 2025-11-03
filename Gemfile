@@ -50,6 +50,9 @@ group :development, :test do
   # model comments
   gem "annotate"
 
+  # rspec-watcher
+  gem "rspec-watcher"
+
   # Solargraph
   gem "solargraph"
 
