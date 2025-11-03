@@ -47,6 +47,9 @@ group :development, :test do
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
 
+  # model comments
+  gem "annotate"
+
   # Solargraph
   gem "solargraph"
 
