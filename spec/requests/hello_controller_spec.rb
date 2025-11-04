@@ -2,6 +2,9 @@ require 'rails_helper'
 
 RSpec.describe "HelloControllers", type: :request do
   describe "GET /index" do
-    pending "add some examples (or delete) #{__FILE__}"
+    it "has hello" do
+      get "/hello"
+      expect(response.body).to include("hello")
+    end
   end
 end
